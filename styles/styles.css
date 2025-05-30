@@ -32,7 +32,7 @@ main img {
 }
 
 img {
-    width: 150px;
+    width: 120px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -45,9 +45,11 @@ p {
 
 main {
     max-width: 840px;
+    text-align: left;
 }
 
 aside {
+    position: relative;
     max-width: 20em;
     margin: 1em;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -60,8 +62,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 47px;
+    left: 100px;
 }
 
 aside img {
