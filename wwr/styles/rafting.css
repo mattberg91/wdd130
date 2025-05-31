@@ -33,7 +33,7 @@ header img {
 
 .navigation {
     display: flex;
-    flex-wrap: none;
+    flex-wrap: nowrap;
     list-style: none;
     padding: 2px;
     font-family: var(--heading-font);
@@ -42,8 +42,8 @@ header img {
 }
 
 .navigation li {
-    flex: 1 1 1 auto;
-    flex-wrap: none;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
     padding: 5px;
@@ -124,8 +124,6 @@ article {
 
 .history-img {
     float: left;
-    shape-outside: circle(50%);
-    clip-path: circle(50%);
     margin: 0 10px 10px 0;
     width: 200px;
     height: auto;
