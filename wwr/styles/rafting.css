@@ -119,7 +119,7 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    border: 4px solid var(--accent2-color)
+    border: 4px solid var(--accent2-color);
 }
 
 .history-img {
@@ -134,12 +134,12 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.adventure-img{
+.adventure-img {
     width: 150px;
-    height:auto;
+    height: auto;
 }
 
 
@@ -157,7 +157,7 @@ article {
 
 
 footer {
-    
+
     display: flex;
     flex-direction: row;
     text-align: center;
