@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border: 2px solid #000009;
-    max-width:max-content;
+    max-width: max-content;
 }
 
 header img {
@@ -123,9 +123,37 @@ article {
 }
 
 .history-img {
-    float: left;
-    margin: 0 10px 10px 0;
+    float: right;
+    margin: 30px 10px 10px 0;
     width: 200px;
     height: auto;
     border: 2px solid #000009;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
 }
