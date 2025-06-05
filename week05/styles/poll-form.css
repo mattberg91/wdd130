@@ -64,5 +64,24 @@ label, input, button, select, textarea {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
-    
+
+ }
+
+ button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+ }
+
+ footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
  }
