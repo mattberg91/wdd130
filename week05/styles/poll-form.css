@@ -27,7 +27,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2) border-radius: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
     background-color: #eee;
     display: grid;
 
@@ -53,4 +53,16 @@ label, input, button, select, textarea {
  label {
     text-align: right;
     padding-right: 1rem;
+ }
+
+ input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1 rem;
+ }
+
+ input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    
  }
