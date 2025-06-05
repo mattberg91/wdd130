@@ -10,3 +10,16 @@ body {
     color: #333;
     background: #fff;
 }
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
