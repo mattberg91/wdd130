@@ -142,25 +142,40 @@ article {
     height: auto;
 }
 
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
 .employee-info {
 
 
 }
 
-.contact-info {
 
-    
+.company-info {
+
+
 }
 
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
 
+.column2 {
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem 0;
+}
 
-
-
-
-
-
-
-
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
 
 
 
