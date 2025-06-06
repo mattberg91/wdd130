@@ -155,6 +155,28 @@ article {
     align-items: stretch;
 }
 
+.employee-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 16px 0;
+}
+
+.employee-card.left {
+    flex-direction: row;
+}
+.employee-card.right{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
 
 .adventure-img1 {
     width: 150px;
