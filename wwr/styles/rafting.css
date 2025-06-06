@@ -158,6 +158,22 @@ article {
 
 }
 
+.adventure-img1 {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.adventure-img2 {
+    width: 150px;
+    height: 150px;
+}
+
+.adventure-img3 {
+    width: 150px;
+    height: 150px;
+}
+
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
