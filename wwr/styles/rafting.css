@@ -161,17 +161,23 @@ article {
 .adventure-img1 {
     width: 150px;
     height: 150px;
+    float: left;
+    border: 2px solid var(--accent2-color);
     
 }
 
 .adventure-img2 {
     width: 150px;
     height: 150px;
+    float: right;
+    border: 2px solid var(--accent2-color);
 }
 
 .adventure-img3 {
     width: 150px;
     height: 150px;
+    float: left;
+    border: 2px solid var(--accent2-color);
 }
 
 .column1 {
