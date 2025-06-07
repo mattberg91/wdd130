@@ -209,7 +209,7 @@ form {
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid var(--accent1-color);
-    background-color: #eee;
+    background-color: var(--secondary-color);
     display: grid;
 
 }
@@ -241,7 +241,7 @@ label {
 }
 
 input,
-select,
+radio,
 textarea {
     padding: 0.5rem;
     font-size: 1.1 rem;
@@ -261,7 +261,7 @@ input[type="checkbox"] {
 }
 
 .column1 {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
 
