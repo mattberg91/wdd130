@@ -81,48 +81,48 @@
             </div>
 
         </div>
-            <form>
-                <fieldset>
-                    <legend>Customer Information</legend>
-                    <div class=" form-item column2">
-                        <label for="fullname">User Full Name:</label>
-                        <input type="text" fullname="fullname" placeholder="Full Name" required>
-                    </div>
-                    <div class="form-item column2">
-                        <label for="email">User Email:</label>
-                        <input type="email" id="useremail" property="useremail" required>
+        <form>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <div class=" form-item column2">
+                    <label for="fullname">User Full Name:</label>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="email">User Email:</label>
+                    <input type="email" id="useremail" property="useremail" required>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Question</legend>
+                <div class="form-item column1">
+                    <radio>
+                        <p>What is your Inquery?</p>
+                        <label>
+                            <input type="radio" name="browser" value="General Inquiry"> General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="browser" value="Reservation Question"> Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="browser" value="Website Suggestion"> Website Suggestion
+                        </label>
+                    </radio>
+                </div>
+                <div class="form-item column1">
+                    <label for="feedback">Leave us a Message</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Leave us a Message"></textarea>
+                    <div class="form-item column1">
+                        <label for="subscribe">Please Subscribe me to the Monthly Newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
                     </div>
 
-                </fieldset>
-                <fieldset>
-                    <legend>Question</legend>
-                    <div class="form-item column1">
-                        <radio>
-                            <p>What is your Inquery?</p>
-                            <label>
-                                <input type="radio" name="browser" value="General Inquiry"> General Inquiry
-                            </label>
-                            <label>
-                                <input type="radio" name="browser" value="Reservation Question"> Reservation Question
-                            </label>
-                            <label>
-                                <input type="radio" name="browser" value="Website Suggestion"> Website Suggestion
-                            </label>
-                        </radio>
-                    </div>
-                    <div class="form-item column1">
-                        <label for="feedback">Leave us a Message</label>
-                        <textarea id="feedback" name="feedback" rows="4" placeholder="Leave us a Message"></textarea>
-                        <div class="form-item column1">
-                            <label for="subscribe">Please Subscribe me to the Monthly Newsletter</label>
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                        </div>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Your Question</button>
+        </form>
 
-                    </div>
-                </fieldset>
-                <button type="submit">Submit Your Question</button>
-            </form>
-        
     </main>
     <footer>
         <p> ©️2025 White Water Rafting Company Matthew Berg</p>
