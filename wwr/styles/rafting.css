@@ -69,7 +69,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    
+
 }
 
 
@@ -166,6 +166,7 @@ article {
 .employee-card.left {
     flex-direction: row;
 }
+
 .employee-card.right {
     flex-direction: row-reverse;
 }
@@ -175,12 +176,13 @@ article {
     padding-right: 10px;
     white-space: nowrap;
     margin: auto;
-    
+
 }
+
 .associate-title {
     font-size: 0.7rem;
     color: var(--secondary-color);
-    margin-top:-8px;
+    margin-top: -8px;
     margin-bottom: 8px;
     white-space: nowrap;
 
@@ -268,10 +270,11 @@ input[type="checkbox"] {
     vertical-align: bottom;
 
 }
+
 .radio-group {
     margin-left: 2rem;
     text-align: left;
-    
+
 }
 
 .form-item {
