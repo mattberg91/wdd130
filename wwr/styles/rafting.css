@@ -268,7 +268,11 @@ input[type="checkbox"] {
     vertical-align: bottom;
 
 }
-
+.radio-group {
+    margin-left: 2rem;
+    text-align: left;
+    
+}
 
 .form-item {
     display: grid;
