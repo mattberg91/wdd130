@@ -11,6 +11,7 @@
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -57,6 +58,7 @@ header img {
 body {
     font-family: var(--body-font);
     color: var(--accent2-color);
+
 }
 
 header,
@@ -104,7 +106,8 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff
+    color: #fff;
+    margin: 0 auto;
 }
 
 article {
@@ -116,7 +119,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff
+    color: #fff;
 }
 
 .hero article img {
