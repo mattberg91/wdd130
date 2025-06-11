@@ -17,12 +17,13 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 500px 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     border: 2px solid #000009;
-    max-width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
 }
 
 header img {
@@ -289,6 +290,13 @@ input[type="checkbox"] {
 .column2 {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin: 0 6px;
 }
 
 button {
