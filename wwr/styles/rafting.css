@@ -46,7 +46,7 @@ a:link {
     color: var(--accent2-color);
 }
 a:visited {
-    color: var(--accent1-color);
+    color: white;
 }
 .navigation li {
     flex: 1 1 auto;
