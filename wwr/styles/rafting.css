@@ -382,4 +382,5 @@ footer {
     align-items: center;
     background-color: var(--primary-color);
     color: #fff;
+    border: 2px solid var(--accent2-color)
 }
