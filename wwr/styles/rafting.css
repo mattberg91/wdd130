@@ -11,7 +11,7 @@
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 header {
@@ -42,18 +42,23 @@ header img {
     margin-left: auto;
     justify-content: flex-end;
 }
+
 nav a {
     color: white;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
+
 a:link {
     color: var(--accent2-color);
 }
+
 a:visited {
     color: var(--accent2-color);
 }
+
 .navigation li {
     flex: 1 1 auto;
     flex-wrap: nowrap;
@@ -116,7 +121,7 @@ article {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width:95%;
+    width: 95%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -127,10 +132,9 @@ article {
 
 article {
     position: absolute;
-    top: 300px;
+    top: 600px;
     width: 95%;
     text-align: center;
-    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -231,6 +235,7 @@ article {
     float: left;
     border: 2px solid var(--accent2-color);
 }
+
 form {
     width: 650px;
     margin: 0 auto;
