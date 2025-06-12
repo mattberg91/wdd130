@@ -311,7 +311,9 @@ input[type="checkbox"] {
     object-fit: cover;
     margin: 0 6px;
 }
-
+.newsletter-sign-up {
+    
+}
 button {
     margin: 1rem;
     background-color: var(--primary-color);
