@@ -392,6 +392,7 @@ table {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 24px;
+    width: 95%
 }
 caption {
     caption-side: bottom;
@@ -405,6 +406,7 @@ th, td {
     border: 1px solid var(--accent2-color);
     padding: 8px 10px;
     justify-content: center;
+    text-align: center;
 }
 td:last-of-type {
     text-align: center;
@@ -444,10 +446,27 @@ caption {
     background-color: var(--accent1-color);
     color: #fff;
 }
+.trips-adventure-banner {
+    text-align: center;
+}
 
 
-
-
+.adventure-trip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    object-fit: cover;
+}
+.rafting-trip {
+    width: 30%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border: 2px solid var(--accent2-color);
+    display: block;
+}
 
 
 
