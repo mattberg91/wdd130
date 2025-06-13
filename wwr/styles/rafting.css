@@ -389,6 +389,9 @@ table {
     font-family: var(--body-font);
     font-size: 0.7rem;
     letter-spacing: normal;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
 }
 caption {
     caption-side: bottom;
@@ -401,6 +404,7 @@ thead, tfoot {
 th, td {
     border: 1px solid var(--accent2-color);
     padding: 8px 10px;
+    justify-content: center;
 }
 td:last-of-type {
     text-align: center;
@@ -409,7 +413,13 @@ tbody > tr:nth-last-of-type(even) {
     background-color: var(--secondary-color);
     color: var(--accent2-color)
 }
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 10px;
 
+}
 
 
 
