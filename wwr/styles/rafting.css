@@ -383,9 +383,32 @@ input[type="checkbox"] {
     color: white;
 }
 
-
-
-
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent2-color);
+    font-family: var(--body-font);
+    font-size: 0.7rem;
+    letter-spacing: normal;
+}
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+thead, tfoot {
+    background-color: white;
+}
+th, td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px 10px;
+}
+td:last-of-type {
+    text-align: center;
+}
+tbody > tr:nth-last-of-type(even) {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color)
+}
 
 
 
