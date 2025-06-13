@@ -447,7 +447,11 @@ caption {
     color: #fff;
 }
 .trips-adventure-banner {
+    position: relative;
     text-align: center;
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 
@@ -460,9 +464,8 @@ caption {
     object-fit: cover;
 }
 .rafting-trip {
-    width: 30%;
+    width: 70%;
     height: auto;
-    aspect-ratio: 4/3;
     object-fit: cover;
     border: 2px solid var(--accent2-color);
     display: block;
