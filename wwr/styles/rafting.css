@@ -311,19 +311,23 @@ input[type="checkbox"] {
     object-fit: cover;
     margin: 0 6px;
 }
+
 .newsletter-sign-up {
     display: grid;
     align-items: center;
 }
+
 .column3 {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
+
 .column4 {
     grid-template-columns: 2fr 1fr;
-    margin: 1.0rem  0;
-    
+    margin: 1.0rem 0;
+
 }
+
 .trips-action {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -333,22 +337,27 @@ input[type="checkbox"] {
     justify-content: center;
     margin-top: 40px;
     color: white;
-    
+
 }
-.rafting-boat, .rafting-boat2 {
+
+.rafting-boat,
+.rafting-boat2 {
     justify-self: center;
 }
+
 .rafting-boat {
     grid-column: 1;
     grid-row: 1;
-    border: 2px  solid var(--accent2-color);
+    border: 2px solid var(--accent2-color);
 }
+
 .rafting-boat2 {
     grid-column: 2;
     grid-row: 1;
-    border: 2px  solid var(--accent2-color);
+    border: 2px solid var(--accent2-color);
 
 }
+
 .trip-plan {
     grid-column: span 3;
     grid-row: 2;
@@ -369,6 +378,7 @@ input[type="checkbox"] {
 .trips-action button a:link {
     color: white;
 }
+
 .trips-action button a:visited {
     color: white;
 }
@@ -408,17 +418,21 @@ input[type="checkbox"] {
     justify-self: center;
     grid-row: 1;
 }
+
 .contact-us-button {
     grid-row: 2;
     grid-column: 2;
 
 }
+
 .contact-us button a:link {
     color: white;
 }
+
 .contact-us button a:visited {
     color: white;
 }
+
 button {
     margin: 1rem;
     background-color: var(--primary-color);
