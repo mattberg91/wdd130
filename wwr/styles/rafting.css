@@ -477,7 +477,10 @@ caption {
     border: 2px solid var(--accent2-color);
     display: block;
 }
-
+.action-call {
+    text-align: center;
+    
+}
 
 
 
