@@ -134,7 +134,6 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .adventure-img {
     width: 150px;
@@ -245,11 +244,7 @@ input[type="checkbox"] {
     display: grid;
     align-items: center;
 }
-.column1 {
-    grid-template-columns: 1fr 2fr;
-    margin: 0.5rem 0;
-}
-.column2 {
+.column1, .column2 {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
