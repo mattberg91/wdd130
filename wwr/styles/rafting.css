@@ -458,6 +458,7 @@ caption {
     padding: 10px;
     background-color: var(--accent1-color);
     color: white;
+    font-family: var(--heading-font);
 }
 
 
@@ -479,12 +480,13 @@ caption {
 }
 .action-call {
     text-align: center;
-    
 }
-
-
-
-
+.action-call-banner {
+    font-family: var(--heading-font)
+}
+.action-call-text {
+    font-family: var(--body-font)
+}
 
 
 
