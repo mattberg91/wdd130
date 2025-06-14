@@ -459,6 +459,8 @@ caption {
     text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
+    font-family: var(--heading-font);
+    font-size: 2rem;
 }
 .trips-adventure-banner {
     position: relative;
@@ -467,6 +469,7 @@ caption {
     background-color: var(--accent1-color);
     color: white;
     font-family: var(--heading-font);
+    font-size: 2rem;
 }
 
 
@@ -490,12 +493,17 @@ caption {
     text-align: center;
 }
 .action-call-banner {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
+    font-size: 2rem;
 }
 .action-call-text {
     font-family: var(--body-font)
 }
-
+.table-title{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+}
 
 
 
