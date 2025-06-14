@@ -543,7 +543,7 @@ caption {
 
 
 footer {
-
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     text-align: center;
