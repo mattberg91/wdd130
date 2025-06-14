@@ -304,7 +304,15 @@ input[type="checkbox"] {
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
 }
-
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
 .socialmedia img {
     width: 32px;
     height: 32px;
