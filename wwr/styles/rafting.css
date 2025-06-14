@@ -315,6 +315,7 @@ input[type="checkbox"] {
 .newsletter-sign-up {
     display: grid;
     align-items: center;
+    
 }
 
 .column3 {
