@@ -9,62 +9,59 @@
         <link rel="stylesheet" href="styles/quiz.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400;700&family=Roboto&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <main>
-            <form>
-                <fieldset>
-                    <legend>Basic HTML and CSS Quiz</legend>
-                    <!--form elements will go here -->
-                    <div class=" form-item column2">
-                        <label for="name"></label>
-                        <input type="textarea" name="q1" id="q1" required>
-                    </div>
-                    <div class="form-item column2">
-                        <label for="email">Email:</label>
-                        <input type="email" id="useremail" property="useremail" required>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Questions</legend>
-                    <!--form elements will go here-->
-                    <div class="form-item column1">
-                        <label for="browser">What is your Favorite Internet Browser?</label>
-                        <select id="browser" name="browser">
-                            <option value="chrome">Chrome</option>
-                            <option value="firefox">Firefox</option>
-                            <option value="safari">Safari</option>
-                            <option value="edge">Edge</option>
-                            <option value="brave">Brave</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-item column1">
-                        <label for="pet">Do you have a household pet?</label>
-                        <input type="checkbox" id="pet" name="pet">
-                    </div>
-                    <div class="form-item column1">
-                        <label for="feedback">List the places you have lived:</label>
-                        <textarea id="feedback" name="feedback" rows="4"
-                            placeholder="Idaho Falls Idaho, Sacramento California, Tulsa, Oklahoma"></textarea>
-                    </div>
-                </fieldset>
-                <button type="submit">Submit Quiz</button>
-            </form>
-        </main>
 
-        <footer>
+<body>
+    <h1>WDD 130 | Matthew Berg | HTML</h1>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!--form elements will go here -->
+                <div class=" form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" fullname="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" property="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <!--form elements will go here-->
+                <div class="form-item column1">
+                    <label for="browser">What is your Favorite Internet Browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="form-item column1">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="Idaho Falls Idaho, Sacramento California, Tulsa, Oklahoma"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
         <p>@2025 | HTML Form - User Poll Activity</p>
-        
+
+
+    </footer>
 </body>
-
-
-
-
-
-
 
 
 </html>
